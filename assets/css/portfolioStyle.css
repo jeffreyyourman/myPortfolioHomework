@@ -1,0 +1,250 @@
+		header
+		{
+			background-color: white;
+			width: 100%;
+		}
+
+		footer
+		{
+			background-color: #666666;
+			padding: 10px;
+		}
+
+		#copyright
+		{
+			color: white;
+			text-align: center;
+		}
+
+		.container
+		{
+			background-color: #dddddd;
+			width: 100%;	
+		}
+
+		.combined_window
+		{
+			max-width: 960;
+			margin: 0 0 0 8%;
+		}
+
+		#nameTITLE
+		{
+			color: white;
+			font-size: 22px;
+			text-align: center;
+			font-family: Georgia;
+			padding: 2.5vh 3vh;
+		}
+
+		#JEFFTITLEBOX
+		{
+			border-style: hidden;
+			background-color: #4aaaa5;
+			width: 200px;
+			height: 75px;
+			margin-left: 10%; 
+		}
+
+		#portfolioBOX
+		{
+			background-color: white;
+			border-style: hidden;
+			float: left;
+			width: 640px;
+			height: 650px;
+			margin: 2%;
+
+		}
+
+		#socialmedia
+		{
+			background-color: white;
+			border-style: hidden;
+			float: left;
+			width: 250px;
+			height: 200px;
+			margin: 2%;
+		}
+
+		#HRBELOWPortolio
+		{
+			width: 89.5%;
+		}
+
+
+		#HRBELOWconnectwithme
+		{
+			width: 88%;
+		}
+
+		#hrAboveCopyRight
+		{
+			width: 100%;
+			height: 5px;
+			background-color: #4aaaa5;
+			margin: 1px;
+		}
+
+		#portfolioBox
+		{
+			margin-left: 5%;
+			color: #4aaaa5;
+		}
+
+		#connectwithme
+		{	
+			margin-left: 4%;
+			color: #4aaaa5;
+		}
+
+		li
+		{
+			display: inline;
+			color: black;
+			font-family: Georgia;
+		}
+
+		.theContactForm
+		{
+			margin: 5%;
+		}
+
+		ul
+		{
+			float: right;
+			text-align: right;
+			color: black;
+		}
+
+		#pictures
+		{
+			margin: 10%;
+			margin-left: 18%;
+		}
+
+		.small_box1
+		{
+		  border: hidden;
+		  height: 175px;
+		  width: 200px;
+		  margin: 10px;
+		  overflow: auto;
+		  position: relative;
+		  top: 1%;
+		  left: 7%;
+		}
+
+		.small_box1 img
+		{
+		  width: 100%;
+		  position: relative;
+		}
+
+		.small_box1 h3 
+		{
+		  color: white;
+		  position: absolute;
+		  z-index: 10000;
+		  background-color: #4aaaa5;
+		  top: 60%;
+		  right: 30%;
+		}	
+
+		.small_box2
+		{
+		  border: hidden;
+		  height: 175px;
+		  width: 200px;
+		  margin: 10px;
+		  overflow: auto;
+		  position: relative;
+		}
+
+		.small_box2 img
+		{
+		  width: 100%;
+		  position: relative;
+		}
+
+		.small_box2 h3 
+		{
+		  color: red;
+		  position: absolute;
+		  z-index: 10000;
+		}	
+
+		.small_box3
+		{
+		  border: hidden;
+		  height: 175px;
+		  width: 200px;
+		  margin: 10px;
+		  overflow: auto;
+		  position: relative;
+		}
+
+		.small_box3 img
+		{
+		  width: 100%;
+		  position: relative;
+		}
+
+		.small_box3 h3 
+		{
+		  color: red;
+		  position: absolute;
+		  z-index: 10000;
+		}	
+
+		.small_box4
+		{
+		  border: hidden;
+		  height: 175px;
+		  width: 200px;
+		  margin: 10px;
+		  overflow: auto;
+		  position: relative;
+		}
+
+		.small_box4 img
+		{
+		  width: 100%;
+		  position: relative;
+		}
+
+		.small_box4 h3 
+		{
+		  color: red;
+		  position: absolute;
+		  z-index: 10000;
+		}	
+
+		.small_box5
+		{
+		  border: hidden;
+		  height: 175px;
+		  width: 200px;
+		  margin: 10px;
+		  overflow: auto;
+		  position: relative;
+		}
+
+		.small_box5 img
+		{
+		  width: 100%;
+		  position: relative;
+		}
+
+		.small_box5 h3 
+		{
+		  color: red;
+		  position: absolute;
+		  z-index: 10000;
+		}	
+
+		.clear-fix
+		{
+			clear: both;
+		}
+
