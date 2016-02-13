@@ -1,127 +1,78 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
 <head>
-
-
-	<title>Contact Me</title>
-
-	<link rel="stylesheet" type="text/css" href="assets/css/contactStyle.css">
-
+	<meta charset="UTF-8">
+	<title>Contact | Jeffrey Yourman</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+<body>
 
-	<body>
-
+	<header id="masthead">
 		<div class="container">
+			<a href="index.html" id="logo">Jeffrey Yourman</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
+	</header>
 
-		<header>
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1>Contact</h1>
 
-			<ul>
-		  		<li><a href="index.html">About</a></li>
-
-				<li><a href="contact.html">Contact</a></li>
-
-				<li><a href="portfolio.html">Portfolio</a></li>
-
-			</ul>
-
-			<div id="JEFFTITLEBOX">
-
-				<h1 id="nameTITLE">Jeffrey Yourman</h1>
-
-			</div>
-
-		</header>
-
-	<div class="combined_window">
-
-		<div id="aboutmebox">
-
-			<h1 id="contactbox">Contact</h1>
-
-			<hr id="HRBELOWcontact">
-
-		<div class="theContactForm">
-		
-			<form>
-
-  				First name:
-
-  				<br>
-
-  				<input id="firstNameID" name="firstname">
-
- 				<br>
-
- 				Email:
-
- 				<br>
-
-  				<input id="EmailID" name="Email">
-
-  				<br>
-
-  				Message:
-
-  				<br>
-
-  				<input id="messageID" name="Message">
-
+			<form id="contact-form">
+				<ul>
+					<li>
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" placeholder="John Smith" required="required">
+					</li>
+					<li>
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+					</li>
+					<li>
+						<label for="message">Message</label>
+						<textarea id="message" name="message" required="required"></textarea>
+					</li>
+				</ul>
+				<input type="submit">
 			</form>
 
-			<div id="submitBox">
+		</section>
 
-				<h3 id="SubmitTitle">Submit</h3>
-
-			</div>
-
-		</div>
-
-		</div>
-
-		<div id="socialmedia">
-
-				<h1 id="connectwithme">Connect with me</h1>
-
-				<hr id="HRBELOWconnectwithme">
-
-			<div id="pictures">
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with Me</h2>
 
 				<a href="https://github.com/jeffreyyourman">
 
-				<img src="assets/images/github.jpg" style="width: 50px; height: 50px;">
+				<img src="assets/images/github-128.png" class="social" alt="Github">
 
 				</a>
 
 				<a href="https://www.linkedin.com/in/jeffrey-yourman-285b81106?authType=NAME_SEARCH&authToken=3ZPa&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A450802757%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1454691064676%2Ctas%3Ajeff">
 
-				<img src="assets/images/linkedin.jpg" style="width: 50px; height: 50px;">
+				<img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn">
 
-				</a>
+				</a>	
 
 				<a href="https://www.stackoverflow.com">
 
-				<img src="assets/images/stackflow.jpg" style="width: 50px; height: 50px;">
+				<img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow">
 
 				</a>
 
-				</div>
-
 			</div>
+		</section>
+	</div>
+
+	<footer>
+		<div class="container">
+			&copy; Copyright 2016 Your Name
 		</div>
-
-		<div class="clear-fix"></div>
-
-	<hr id="hrAboveCopyRight">
-
-		<footer>
-
-			<h5 id="copyright">Copyright 2016 Jeff Yourman</h5>
-
-		</footer>
-
-		</div>
-
-	</body>
-
+	</footer>
+</body>
 </html>
